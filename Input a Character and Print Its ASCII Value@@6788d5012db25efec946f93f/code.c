@@ -14,13 +14,17 @@
 #include <stdio.h>
 
 int main() {
-    char str[1];
+    char str[100];  // Increased array size to avoid buffer overflow
 
     printf("Enter a string: ");
-    scanf("%s", str); 
+    scanf("%s", str); // Reads a single word (stops at space)
 
+    // Printing ASCII value of the first character
     printf("ASCII Value of '%c': %d\n", str[0], str[0]); 
 
     return 0;
 }
+
+
+
 
