@@ -1,15 +1,31 @@
+// #include <stdio.h>
+// int main(){
+//     int a;
+//     scanf("%d",&a);
+//     if(a>0){
+//         printf("Positive");
+//     }
+//     else if(a==0){
+//         printf("zero");
+//     }
+//     else{
+//         printf("Negative");
+//     }
+//     return 0;
+// }
 #include <stdio.h>
-int main(){
+int main() {
     int a;
     scanf("%d",&a);
-    if(a>0){
+    if ( a > 0){
         printf("Positive");
     }
-    else if(a==0){
-        printf("zero");
+    else if( a == 0){
+        printf("Zero");
     }
     else{
+        printf("Negetive");
         printf("Negative");
     }
-    return 0;
-}
+    return 0;}
+    
