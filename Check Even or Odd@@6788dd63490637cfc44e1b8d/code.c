@@ -1,13 +1,27 @@
+// #include <stdio.h>
+// int main(){
+//     int a;
+//     scanf("%d",&a);
+//     if(a%2==0){
+//         printf("Even");
+//     }
+//     else
+//     {
+//         printf("odd");
+//     }
+//     return 0;
+// }
 #include <stdio.h>
-int main(){
+
+int main() {
     int a;
-    scanf("%d",&a);
-    if(a%2==0){
+    scanf("%d", &a);
+    
+    if (a % 2 == 0) {
         printf("Even");
+    } else {
+        printf("Odd");
     }
-    else
-    {
-        printf("odd");
-    }
+
     return 0;
 }
