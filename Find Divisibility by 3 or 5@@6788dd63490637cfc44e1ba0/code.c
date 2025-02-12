@@ -29,7 +29,7 @@ int main() {
         printf("Divisible by 5 ");
     } 
     else {
-        printf("Not divisible"); 
+        printf("Not Divisible"); 
     }
     return 0;
 }
