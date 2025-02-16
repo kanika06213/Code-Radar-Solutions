@@ -5,6 +5,6 @@ int ClrBin(int position, int n){
 int main(){
     int position,n;
     scanf("%d %d",&position,&n);
-    printf("%d",positon,n);
+    printf("%d",ClrBin(position,n));
     return 0;
 }
