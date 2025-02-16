@@ -1,4 +1,8 @@
 #include <stdio.h>
+nt GetBin(int position,int n){
+    
+    return (n & (1 << position)) ? 1 : 0;
+}
 int main() {
     int n,position;
     scanf("%d %d", &n, &position);
