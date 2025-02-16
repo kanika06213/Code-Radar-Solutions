@@ -1,5 +1,5 @@
 #include <stdio.h>
-nt GetBin(int position,int n){
+int GetBin(int position,int n){
     
     return (n & (1 << position)) ? 1 : 0;
 }
